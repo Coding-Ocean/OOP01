@@ -10,18 +10,17 @@ private:
 	void UpdateGame();
 	void GenerateOutput();
 
-	//Paddle
-	float PaddleH;
-	float PaddleW;
-	float PaddlePx;
-	float PaddlePy;
-	float PaddleVy;
-	float BallH;
-	float BallW;
-	float BallPx;
-	float BallPy;
-	float BallVx;
-	float BallVy;
+	float mBallH;
+	float mBallW;
+	float mBallPx;
+	float mBallPy;
+	float mBallVx;
+	float mBallVy;
 
+	float mPaddleH;
+	float mPaddleW;
+	float mPaddlePx;
+	float mPaddlePy;
+	float mPaddleVy;
 };
 
